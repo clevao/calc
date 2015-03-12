@@ -19,6 +19,9 @@
 			case "+":
 				$res = $v1 + $v2;
 				break;
+			case "-":
+				$res = $v1 - $v2;
+				break;
 			default:
 				$res = "ERRO";
 				break;
@@ -37,6 +40,7 @@
 				<input type="hidden" name="enviar" value="true">
 				<select name="operacao" class="inputTexto" style="width: 80px;">
 					<option value="+">MAIS</option>					
+					<option value="-">MENOS</option>					
 				</select>
 				<input type="text" name="valor2" value="'.$v2.'" class="inputTexto" style="width: 80px;">
 				'.$strRes.'

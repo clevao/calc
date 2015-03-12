@@ -1,0 +1,227 @@
+				label.error { color: red; margin: 0 .5em 0 0; vertical-align: top; font-size: 14px }
+				.linkotg { font-family: Trebuchet MS;font-size: 12px;color: #666666;}
+
+				form { padding:0; margin:0; }
+                .texto { font-family: Trebuchet MS; font-size: 13px; color: #666666; }
+                h1 { font-family: Trebuchet MS; font-size: 16px; font-weight: none; padding:0px; margin:0px; margin-bottom:20px; }
+				h2 { font-family: Trebuchet MS; font-size: 14px; font-weight: none; padding:0px; margin:0px; margin-bottom:20px; color:#666666; }
+				.Azul { color: #047AC2; }
+				.Vermelho { color: #A92525; }
+				.Bege { color: #D38C17; }	
+				.Marrom { color: #883204; }			
+				.Verde { color: #447D25; }	
+				.Cinza { color: #333333; }			
+                .link { text-decoration:none; color: #666; }					
+				.display { display: inline; }
+
+                body:first-of-type
+				.display
+				{ display: inline-block; }
+
+				body:nth-of-type(1)
+				.display
+				{ display: inline-block; }									
+
+                .inputTexto { border: 0px; color: #333333; font-size: 14px; border: solid 1px #999999; background:#ffffff; padding: 3px; width: 410px; }
+                .inputTexto:disabled { border: 0px; color: #333333; font-size: 14px; border: solid 1px #999999; background:#f9f9f9; padding: 3px; width: 410px; }
+
+                .inputTransparente { margin:0; border: 0px; color: #666666; font-size: 13px; text-align:center;background:transparent; padding: 3px; }
+				.inputTransparente:focus { margin:0; border: 0px; color: #666666; font-size: 13px; border: solid 1px #999999; background:#fff; padding: 3px; }
+				
+
+                .inputTexto2 { border: 0px; color: #333333; font-size: 13px; border: solid 1px #999999; background:#ffffff; padding: 3px;width: 410px; }
+				.inputTextoEcom { border: 0px ; color: #333333; font-size: 14px; border: solid 1px #999999; background:#ffffff; padding: 3px; }
+				.inputTextoDesabilitado { border: 0px ; color: #ffffff; font-size: 14px; border: solid 1px #999999; background:#999999; padding: 3px; }
+				.botaoEnviar { border: 0px; background-color: #333333; color: #ffffff; font-family:Arial; font-size:12px; font-weight:bold; text-align:center; padding:4px; padding-left:20px; padding-right:20px; }
+				.inputAreaTexto { border: 0px ; color: #333333; font-size: 14px; border: solid 1px #999999; background:#ffffff; }
+				input.inputTexto:focus { background:#eeeeee; }
+				input.inputTexto2:focus { background:#ffffff; }
+				input.inputTextoEcom:focus { background:#f9f9f9; }
+                div { border: 0px solid #000000; }
+                .botaoCentro { margin:auto; text-align:center; width:100%; padding-top:10px; font-family:Arial; font-size:10px; font-weight:bold; }
+				div.botaoMenuClicado { background-color: #dddddd; color: #666666; width:87px; height:80px; border: solid 1px #dddddd; border-left: solid 1px #dddddd; margin:auto; }
+                div.botaoMenu { background-color: #eeeeee; color: #666666; width:87px; height:80px; border: solid 1px #cccccc; border-left: solid 1px #ffffff; margin:auto; }
+				div.botaoEcommerce { background-color: #eeeeee; color: #666666; border: solid 1px #cccccc; border-bottom:0; height:35px; vertical-align:top; width:150px; }
+				div.botaoInserir { background-color: #eeeeee; height:35px; vertical-align:top; width:90px; }
+                div.botaoInserir:hover { cursor:pointer; background-color: #e8e8e8; }
+                div.botaoMenu:hover { cursor:pointer; background-color: #e8e8e8; }
+				div.botaoSubMenuAzul { color: #297B9E; font-family:Arial; height:40px; font-size:10px; font-weight:bold; text-align:center; }
+				div.botaoCinza { color: #297B9E; font-family:Arial; height:40px; font-size:10px; font-weight:bold; text-align:center; }
+				div.botaoCinza:hover { cursor:pointer; background-color: #dddddd; color:#297B9E; }
+				div.botaoCinzaClaro { color: #999999; font-family:Arial;
+					height:40px;
+                    font-size:10px;
+                    font-weight:bold;
+					text-align:center;
+				}
+				div.botaoCinzaClaro:hover
+                {
+                    cursor:pointer;
+                    background-color: #f9f9f9;
+					color:#297B9E;
+                }
+
+                div.botaoSubMenuAzul:hover
+                {
+                    cursor:pointer;
+                    background-color: #297B9E;
+					color:#ffffff;
+                }				
+				div.botaoSubMenuBege
+				{
+                    color: #D38C17;
+                    font-family:Arial;
+					height:40px;
+                    font-size:10px;
+                    font-weight:bold;
+					text-align:center;
+				}
+                div.botaoSubMenuBege:hover
+                {
+                    cursor:pointer;
+                    background-color: #D38C17;
+					color:#ffffff;
+                }
+				div.botaoSubMenuMarrom
+				{
+                    color: #883204;
+                    font-family:Arial;
+					height:40px;
+                    font-size:10px;
+                    font-weight:bold;
+					text-align:center;
+				}
+                div.botaoSubMenuMarrom:hover
+                {
+                    cursor:pointer;
+                    background-color: #883204;
+					color:#ffffff;
+                }
+				div.botaoSubMenuVerde
+				{
+                    color: #447D25;
+                    font-family:Arial;
+					height:40px;
+                    font-size:10px;
+                    font-weight:bold;
+					text-align:center;
+				}
+                div.botaoSubMenuVerde:hover
+                {
+                    cursor:pointer;
+                    background-color: #447D25;
+					color:#ffffff;
+                }
+				div.botaoSubMenuCinza
+				{
+                    color: #333333;
+                    font-family:Arial;
+					height:40px;
+                    font-size:10px;
+                    font-weight:bold;
+					text-align:center;
+				}
+                div.botaoSubMenuCinza:hover
+                {
+                    cursor:pointer;
+                    background-color: #333333;
+					color:#ffffff;
+                }
+				div.botaoSubMenuVermelho
+				{
+                    color: #A92525;
+                    font-family:Arial;
+					height:40px;
+                    font-size:10px;
+                    font-weight:bold;
+					text-align:center;
+				}
+                div.botaoSubMenuVermelho:hover
+                {
+                    cursor:pointer;
+                    background-color: #A92525;
+					color:#ffffff;
+                }
+				tr.listaFocus
+				{
+					background-color: #dddddd;
+				}
+				td.listaFocus
+				{
+					background-color: #dddddd;
+				}
+				tr.lista
+				{
+					background-color: #eeeeee;
+				}
+				tr.lista:hover
+				{
+					background-color: #dddddd;
+				}
+                
+                tr.listan
+				{
+					background-color: #eeeeee;
+				}
+				tr.listan:hover
+				{
+					background-color: #eeeeee;
+				}
+
+				div.lista
+				{
+					background-color: #eeeeee;
+				}
+				div.lista:hover
+				{
+					background-color: #dddddd;
+				}
+				div.lista2
+				{
+					background-color: #fff;
+				}
+				div.lista2:hover
+				{
+					background-color: #eee;
+				}
+
+				div.lista3
+				{
+					border:solid 1px #fff;
+					background-color: #f9f9f9;
+				}
+				div.lista3:hover
+				{
+					background-color: #f2f2f2;
+				}
+
+				tr.lista3
+				{
+					border:solid 1px #fff;
+					background-color: #f9f9f9;
+				}
+				tr.lista3:hover
+				{
+					background-color: #f2f2f2;
+				}
+
+
+				.sucesso
+				{
+					color:#447D25;
+					font-weight:bold;
+				}
+				.erro
+				{
+					color:#ff0000;
+					font-weight:bold;
+				}
+				.aviso
+				{
+					color:#d07806;
+					font-weight:bold;
+				}
+				.linkCinza
+				{
+                    color: #666666;
+				}

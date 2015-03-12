@@ -24,6 +24,12 @@
 			case "-":
 				$res = $v1 - $v2;
 				break;
+			case "/":
+				$res = $v1 / $v2;
+				break;
+			case "*":
+				$res = $v1 * $v2;
+				break;
 			default:
 				$res = "ERRO";
 				break;
@@ -41,9 +47,11 @@
 			<form method="POST">
 				<input type="text" name="valor1" value="'.$v1.'" class="inputTexto" style="width: 80px;">
 				<input type="hidden" name="enviar" value="true">
-				<select name="operacao" class="inputTexto" style="width: 80px;">
-					<option value="+" '.$arrayOp["+"].'>MAIS</option>					
-					<option value="-" '.$arrayOp["-"].'>MENOS</option>					
+				<select name="operacao" class="inputTexto" style="width: 40px;">
+					<option value="+" '.$arrayOp["+"].'>+</option>					
+					<option value="-" '.$arrayOp["-"].'>-</option>
+					<option value="*" '.$arrayOp["*"].'>*</option>
+					<option value="/" '.$arrayOp["/"].'>/</option>					
 				</select>
 				<input type="text" name="valor2" value="'.$v2.'" class="inputTexto" style="width: 80px;">
 				'.$strRes.'

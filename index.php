@@ -12,10 +12,10 @@
 				<input type="text" name="valor1" value="" class="inputTexto" style="width: 80px;">
 				<input type="hidden" name="enviar" value="true">
 				<select name="operacao" class="inputTexto" style="width: 40px;">
-					<option value="+">+</option>
-					<option value="+">-</option>
-					<option value="+">*</option>
-					<option value="+">/</option>
+					<option value="+">SUM</option>
+					<option value="-">SUB</option>
+					<option value="*">MULT</option>
+					<option value="/">DIV</option>
 				</select>
 				<input type="text" name="valor2" value="" class="inputTexto" style="width: 80px;">
 				<br><br>

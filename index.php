@@ -12,10 +12,10 @@
 				<input type="text" name="valor1" value="" class="inputTexto" style="width: 80px;">
 				<input type="hidden" name="enviar" value="true">
 				<select name="operacao" class="inputTexto" style="width: 40px;">
-					<option value="+">+</option>
-					<option value="+">-</option>
-					<option value="+">*</option>
-					<option value="+">/</option>
+					<option value="+">MAIS</option>
+					<option value="-">MENOS</option>
+					<option value="*">VEZES</option>
+					<option value="/">Divisao</option>
 				</select>
 				<input type="text" name="valor2" value="" class="inputTexto" style="width: 80px;">
 				<br><br>
